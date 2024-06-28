@@ -1,0 +1,45 @@
+p {
+    color: red;
+    font-size: 20px;
+}
+
+.header{
+    width: 100%;
+    opacity: .80;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: right;
+  z-index: 1;
+    
+}
+
+.header-wrap {
+    width: 20%;
+    background-color: #2C2C2C  ;
+
+    border-bottom-left-radius: 25px;
+ padding-left: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ z-index: 1;
+
+}
+
+.btn{
+    margin-top: 40px;
+    width: 500px;
+    height: 100px;
+    color: #2C2C2C;
+    font-weight: bolder;
+    background-color: #3DAF9B;
+    font-size: 30px;
+}
+
+
+
+
+
+
+

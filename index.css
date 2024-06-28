@@ -1,0 +1,155 @@
+/* *{
+  overflow: auto;
+} */
+body {
+  
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .bp4-editable-text-input{
+    height: 200px;
+    width:200px;
+    
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .content{
+    margin-top: 30vh;
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content p{
+  color: #9F9F9F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    z-index: 1;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-buttons button.active {
+    background-color: #2C2C2C;
+    color: #fff;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.green-strip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: #3DAF9B;
+  margin-top: -40px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.carousel-content{
+  min-height: 50px;
+  min-width: 50%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.carousel-content h2{
+color: #2C2C2C;
+margin: 0px 20px ;
+font-weight: bold;
+}
+.carousel-content h1{
+  color: #fff;
+
+  }
